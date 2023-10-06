@@ -8,9 +8,9 @@ public class App
 {
     public static int func1(int x,int y){
         
-        int z=x;
+        int w=x*x;
 
-        return x+y;
+        return x+x;
 
    }
        public static int func2(int x,int y){
@@ -31,6 +31,12 @@ public class App
           public static int func5(int x,int y){
        
         return (y/y);
+
+   }
+      
+          public static int func6(int x,int y){
+       
+        return (y+y);
 
    }
    

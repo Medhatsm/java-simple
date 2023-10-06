@@ -14,7 +14,7 @@ public class AppTest
     @Test
     public void testfunc1() {
         int f=App.func1(5, 7);
-        assertEquals(f, 12);
+        assertEquals(f, 10);
     }
     @Test
     public void testfunc2() {
@@ -34,6 +34,12 @@ public class AppTest
       int k=App.func2(5, 7);
       int sum=k+f;
         assertEquals(sum, 75);
+    }
+        public void testfun4and5() {
+      int f=App.func4(5, 7);
+      int k=App.func5(5, 7);
+      int sum=k+f;
+        assertEquals(sum, 26);
     }
 
     // @Test
