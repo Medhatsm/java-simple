@@ -1,0 +1,19 @@
+{
+  "executionType": "full",
+  "tokenFile": "/home/medhatsm/sealights/sltoken.txt",
+  "createBuildSessionId": true,
+  "appName": "tga-demo",
+  "branchName": "master",
+  "buildName": "1",
+  "packagesIncluded": "*com.tga*",
+  "packagesExcluded": "",
+  "filesIncluded": "*.class",
+  "filesExcluded": "*test-classes*",
+  "recursive": true,
+  "includeResources": true,
+  "logEnabled": true,
+  "logDestination": "console",
+  "logLevel": "info",
+  "logFolder": "/tmp",
+  "sealightsJvmParams": {}
+}
