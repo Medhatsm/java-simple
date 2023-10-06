@@ -39,6 +39,11 @@ public class App
         return (y+y);
 
    }
+             public static String func7(){
+       
+        return "hello func 7";
+
+   }
    
     public static void main( String[] args )
     {
