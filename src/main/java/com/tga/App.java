@@ -39,10 +39,20 @@ public class App
         return (y+y);
 
    }
+
+
+
+
+
+
+
              public static String func7(){
-       
+       /*hello world*/
         return "hello func 7";
 
+   }
+   public static String func8(){
+    return "hello func 8";
    }
    
     public static void main( String[] args )
