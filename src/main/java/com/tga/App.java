@@ -9,7 +9,7 @@ public class App
     public static int func1(int x,int y){
         
         int w=x*x;
-        int d=y*y
+        int d=y*y;
 
         return x+x;
 
