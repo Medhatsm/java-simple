@@ -9,7 +9,7 @@ public class App
     public static int func1(int x,int y){
         
         int w=x*x;
-        int d=y*y
+        int d=y*y;
 
         return x+x;
 
@@ -29,16 +29,25 @@ public class App
         return (x*x);
 
    }
-          public static int func5(int x,int y){
+    public static int func5(int x,int y){
        
         return (y/y);
 
    }
       
-          public static int func6(int x,int y){
+    public static int func6(int x,int y){
        
         return (y+y);
 
+   }
+
+    public static String func7(){
+       /*hello world*/
+        return "hello func 7";
+
+   }
+   public static String func8(){
+    return "hello func 8";
    }
    
     public static void main( String[] args )
